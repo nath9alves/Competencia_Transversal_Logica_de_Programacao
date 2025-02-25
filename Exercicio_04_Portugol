@@ -1,0 +1,25 @@
+//• Pergunte também a quantidade de horas de curso e quantidade de faltas. 
+// Ele deve ter no mínimo 75% de presença no curso, ou será reprovado por faltas independentemente.
+
+algoritmo "Condicionais"
+var
+    horasCurso, horasFaltas, presenca: real
+inicio
+    escreva("Quantas horas de curso?: ")
+      leia(horasCurso)
+
+    escreva("Quantas horas de faltas?: ")
+      leia(horasFaltas)
+
+                 // armazena o resultado da expressão / cálculo na variável
+    presenca <- ((horasCurso - horasFaltas) / horasCurso) * 100
+
+    // Analisa se o cálculo é maior ou igual a 75%
+
+    se presenca >= 75 entao                
+   // 2:2 torna o resultado numérico entendível para o usuário
+        escreva("Presença de ", presenca:2:2, "%. Aluno aprovado.")
+    senao
+        escreva("Presença de ", presenca:2:2, "%. Aluno reprovado.")
+    fimse
+fimalgoritmo
