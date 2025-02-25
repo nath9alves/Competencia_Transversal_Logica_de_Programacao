@@ -1,0 +1,34 @@
+//• Crie um programa que pergunte ao usuário seu salário. Caso esse salário seja inferior a um salário mínimo, imprima:
+//“Benefício concedido”.
+//Caso seja superior, imprima: “Benefício Negado”
+
+//(use números inteiros)
+
+algoritmo "condicionais"
+var
+salario:inteiro
+inicio
+escreval ("Informe seu salário")
+  leia (salario)
+    se salario < 1518.07 entao
+ escreva ("Beneficio Concedido!")
+ fimse
+fimalgoritmo
+
+
+algoritmo "condicionais"
+var
+salario:inteiro
+inicio
+escreval ("Informe seu salário")
+  leia (salario)
+    se salario < 1518.07 entao
+ escreva ("Beneficio Concedido!")
+  fimse
+   se salario >= 1518.07 entao
+  escreval ("Beneficio Negado!")
+   fimse
+fimalgoritmo
+
+
+
