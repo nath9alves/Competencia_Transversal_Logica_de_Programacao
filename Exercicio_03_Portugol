@@ -1,0 +1,42 @@
+//• Baseado no exercício anterior, faça um programa que retorne para:
+//Salário < 1518.07: “Benefício Concedido!”
+//Salário > 1518.07: “Benefício Negado!”
+//Salário = 1518.07: “Benefício em Análise!”
+
+
+algoritmo "condicionais"
+var
+salario:real
+inicio
+escreval ("Informe seu salário:")
+  leia (salario)
+    se salario > 1518.07 entao
+escreva ("Benefício Negado!")
+  fimse
+     se salario < 1518.07 entao
+ escreva ("Benefício Concedido!")
+  fimse
+ se salario = 1518.07 entao
+ escreva ("Benefício em Análise!")
+  fimse
+fimalgoritmo
+
+//Ou
+
+algoritmo "condicionais"
+var
+salario:real
+inicio
+escreval ("Informe seu salário:")
+  leia (salario)
+    se salario > 1518.07 entao
+escreva ("Benefício Negado!")
+  senao
+     se salario < 1518.07 entao
+ escreva ("Benefício Concedido!")
+   senao
+ se salario = 1518.07 entao
+ escreva ("Benefício em Análise!")
+  fimse
+  fimse
+fimalgoritmo
