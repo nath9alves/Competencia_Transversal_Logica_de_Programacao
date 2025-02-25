@@ -1,0 +1,14 @@
+//• Baseado no programa anterior, caso o salário seja igual ou superior ao salário mínimo, informe:
+//“Benefício Negado!”
+
+
+algoritmo "condicionais"
+var
+salario:inteiro
+inicio
+escreval ("Informe seu salário:")
+  leia (salario)
+    se salario >= 1518.07 entao
+ escreva ("Benefício Negado!")
+  fimse
+fimalgoritmo
